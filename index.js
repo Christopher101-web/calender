@@ -27,7 +27,7 @@ for (let i = firstDay; i > 0; i--){
 	days += `<div class="empty"></div>`;
 }
 
-for (let i = 2; i < lastDay; i++){
+for (let i = 1; i < lastDay; i++){
 	if (i === new Date().getDate()){
 		days += `<div class="today">${i}</div>`;
 	} else {
